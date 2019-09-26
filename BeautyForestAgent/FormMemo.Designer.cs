@@ -135,6 +135,7 @@
             this.btnLoadFileSelect.TabIndex = 2;
             this.btnLoadFileSelect.Text = "파일 선택";
             this.btnLoadFileSelect.UseVisualStyleBackColor = true;
+            this.btnLoadFileSelect.Click += new System.EventHandler(this.btnLoadFileSelect_Click);
             // 
             // btnLoadFile
             // 
@@ -144,6 +145,7 @@
             this.btnLoadFile.TabIndex = 3;
             this.btnLoadFile.Text = "불러오기";
             this.btnLoadFile.UseVisualStyleBackColor = true;
+            this.btnLoadFile.Click += new System.EventHandler(this.btnLoadFile_Click);
             // 
             // btnSaveFile
             // 
@@ -153,6 +155,7 @@
             this.btnSaveFile.TabIndex = 1;
             this.btnSaveFile.Text = "저장하기";
             this.btnSaveFile.UseVisualStyleBackColor = true;
+            this.btnSaveFile.Click += new System.EventHandler(this.btnSaveFile_Click);
             // 
             // txtSaveFile
             // 
@@ -167,7 +170,6 @@
             this.txtSaveText.Location = new System.Drawing.Point(8, 38);
             this.txtSaveText.Multiline = true;
             this.txtSaveText.Name = "txtSaveText";
-            this.txtSaveText.ReadOnly = true;
             this.txtSaveText.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txtSaveText.Size = new System.Drawing.Size(530, 328);
             this.txtSaveText.TabIndex = 3;
@@ -180,6 +182,7 @@
             this.btnSaveFileSelect.TabIndex = 4;
             this.btnSaveFileSelect.Text = "파일 선택";
             this.btnSaveFileSelect.UseVisualStyleBackColor = true;
+            this.btnSaveFileSelect.Click += new System.EventHandler(this.btnSaveFileSelect_Click);
             // 
             // toolStripStatusLabel1
             // 
